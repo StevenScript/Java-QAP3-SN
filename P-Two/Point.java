@@ -1,5 +1,5 @@
 /**
- * The Point class represents a point in 2D space with x and y coordinates.
+ * The Point class represents a point in 2D, via x and y coordinates.
  */
 
  public class Point {
@@ -24,6 +24,9 @@
         this.x = x;
         this.y = y;
     }
+
+
+// --- SETTERS AND GETTERS --- //
 
     /**
      * Gets the x-coordinate of the point.
@@ -62,7 +65,8 @@
     }
 
 
-    // setXY get getXY
+// setXY get getXY //
+
     /**
      * Sets both x and y coordinates of the point.
      *

@@ -1,9 +1,9 @@
-// MovablePoint.java
-
 /**
  * The MovablePoint class represents a point that can be moved by a speed along the x and y axes.
  * It extends the Point class and adds speed attributes and methods to move the point.
  */
+
+ 
 public class MovablePoint extends Point {
     // Private instance variables for speed in the x and y directions
     private float xSpeed = 0.0f;

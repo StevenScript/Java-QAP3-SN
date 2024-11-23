@@ -1,9 +1,9 @@
-// Demo.java
-
 /**
  * The Demo class tests the Point and MovablePoint classes by creating objects
  * and demonstrating their functionality.
  */
+
+ 
 public class Demo {
     public static void main(String[] args) {
         // Test the Point class

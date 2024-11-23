@@ -1,3 +1,5 @@
+package ProblemOne;
+
 /**
  * The Demo class tests the Person, Student, Teacher, and CollegeStudent classes.
  */

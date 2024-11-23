@@ -1,3 +1,5 @@
+package ProblemTwo;
+
 /**
  * The Point class represents a point in 2D, via x and y coordinates.
  */

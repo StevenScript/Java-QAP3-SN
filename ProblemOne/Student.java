@@ -1,3 +1,5 @@
+package ProblemOne;
+
 /**
  * Student class represents a student and extends my Person class
  */

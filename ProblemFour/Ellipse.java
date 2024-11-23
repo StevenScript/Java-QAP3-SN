@@ -1,8 +1,10 @@
-// Ellipse.java
+package ProblemFour;
 
 /**
  * The Ellipse class represents an ellipse shape with a major and minor axis.
  */
+
+ 
 public class Ellipse extends Shape {
     // Major and minor axes
     private double a; // Major axis
@@ -12,7 +14,7 @@ public class Ellipse extends Shape {
      * Constructor that initializes the ellipse with given axes.
      * Assigns the larger value to 'a' (major axis) and the smaller to 'b' (minor axis).
      *
-     * @param name The name of the shape.
+     * @param name  The name of the shape.
      * @param axis1 The first axis length.
      * @param axis2 The second axis length.
      */
@@ -51,5 +53,16 @@ public class Ellipse extends Shape {
         }
         // Approximate perimeter formula for an ellipse
         return Math.PI * Math.sqrt(2 * (a * a + b * b) - Math.pow(a - b, 2) / 2);
+    }
+
+    /**
+     * Scales the ellipse by multiplying the major and minor axes by the scaling factor.
+     *
+     * @param factor The scaling factor.
+     */
+    @Override
+    public void scale(double factor) {
+        a *= factor;
+        b *= factor;
     }
 }

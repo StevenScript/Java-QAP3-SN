@@ -1,3 +1,5 @@
+package ProblemThree;
+
 /**
  * The EquilateralTriangle class represents a triangle with all sides equal.
  */

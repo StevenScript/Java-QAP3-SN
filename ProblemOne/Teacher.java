@@ -1,3 +1,5 @@
+package ProblemOne;
+
 /**
  * The Teacher class represents a teacher and extends the Person class.
  */

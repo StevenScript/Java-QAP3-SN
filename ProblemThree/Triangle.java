@@ -1,3 +1,5 @@
+package ProblemThree;
+
 /**
  * The Triangle class represents a triangle with three sides.
  */

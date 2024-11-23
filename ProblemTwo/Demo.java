@@ -1,3 +1,5 @@
+package ProblemTwo;
+
 /**
  * The Demo class tests the Point and MovablePoint classes by creating objects
  * and demonstrating their functionality.

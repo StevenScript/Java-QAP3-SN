@@ -1,3 +1,5 @@
+package ProblemThree;
+
 /**
  * The Demo class tests the Shape hierarchy by creating various shape objects and displaying their properties.
  */
